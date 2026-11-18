@@ -49,5 +49,5 @@ if __name__ == "__main__":
         if appointment_id:
             print("\n--- 3c) Lectura del turno ---")
             get_resource_from_hapi_fhir(appointment_id, 'Appointment')
-        else:
-            print("No se pudo obtener un paciente: no se crea el turno.")
+    else:
+        print("No se pudo obtener un paciente: no se crea el turno.")
